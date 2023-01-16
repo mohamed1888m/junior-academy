@@ -3,19 +3,22 @@
     <meta name="viewport" content="width=device-width,  initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>junior academy</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header id="home">
         <nav>
             <a href="index.html"><p>junior academy</p></a>
             <div class="nav-links" id="navlinkes">
-                <i class="fa fa-times" onclick="hidemenu()" ></i>
-                <ul>
+                <span class="material-icons-outlined" onclick="hidemenu()">
+                    close 
+                    </span>                <ul>
                     <li><a href="index.html">القائمه</a></li>
                     <li><a href="about.html"> من نحن</a></li>
                     <li><a href="booked.html">الحجز</a></li>
@@ -23,8 +26,9 @@
                     <li></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showmenu()" ></i>
-
+            <span class="material-icons-outlined" onclick="showmenu()">
+                menu
+                </span>
         </nav>
         <div class="text-box">
             <h1>junior Swimming Academy</h1>
