@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>junior academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><p>junior academy</p></a>
+            <div class="nav-links" id="navlinkes">
+                <i class="fa fa-times" onclick="hidemenu()" ></i>
+                <ul>
+                    <li><a href="index.html">القائمه</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="booked.html">الحجز</a></li>
+                    <li><a href="">تواصل معنا</a></li>
+                    <li></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()" ></i>
+
+        </nav>
+        <h1>احجز لطفلك دلوقتي</h1>
+    </section>
+
+  <section class="form-sup">
+    <div class="row">
+        <div class="form-col">
+        <form action="">
+            <input type="text" placeholder="اسم الطفل" required>
+            <input type="text" placeholder="اسم الوالد" required>
+            <input type="date" placeholder="عمر الطفل" required>
+            <input type="number" placeholder="رقم هاتف للتواصل " required>
+            <textarea  rows="8" placeholder="اي استفسار اخر"></textarea>
+            <button type="submit" class="button">ارسال</button>
+        </form>
+        </div>
+        <div class="form-col"></div>
+    </div>
+
+  </section>
+     
+    
+
+<!-- footer -->
+<section class="footer">
+    <h4>من نحن</h4>
+    <p>اكادميه متخصصه في تدريب الاطفال والوصول الي حلمهم بالبطوله</p>
+    <p>made with mohamed ahmed</p>
+
+</section>
+
+    <script>
+        var navlinkes = document.getElementById("navlinkes");
+        function showmenu(){
+            navlinkes.style.right = "0";
+        }
+        
+        function hidemenu(){
+            navlinkes.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
